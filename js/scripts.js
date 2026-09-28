@@ -84,3 +84,10 @@ window.addEventListener("DOMContentLoaded", () => {
 	setGreeting();
 	initCursor();
 });
+
+// Dynamic copyright year
+const currentYear = document.getElementById("current-year");
+
+if (currentYear) {
+	currentYear.textContent = new Date().getFullYear();
+}
