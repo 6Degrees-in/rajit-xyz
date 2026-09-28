@@ -1,6 +1,6 @@
 # Rajit Singh - Personal Portfolio
 
-The personal portfolio website of Rajit Singh, a Web & Brand Designer based in India. This site showcases a minimalist, "Swiss-style" design philosophy, emphasizing fluid typography, micro-interactions, and performance.
+The personal portfolio website of Rajit Singh, a Web & Brand Designer based in India. The site follows a minimalist, "Swiss-style" design philosophy, with an emphasis on fluid typography, subtle micro-interactions, responsiveness, and performance.
 
 ![GitHub Featured Image](images/github-featured-image.webp)
 
@@ -8,36 +8,55 @@ The personal portfolio website of Rajit Singh, a Web & Brand Designer based in I
 
 ### Design & UI
 
-- **Minimalist Grid System**: A subtle dashed grid background that expands on load (mask-image animations).
-- **Fluid Typography**: Uses modern CSS `clamp()` functions to scale text smoothly between mobile and desktop without rigid breakpoints.
-- **Dark/Light Theme**: Automatically adapts to the user's system preference (`prefers-color-scheme`).
-- **Custom Cursor**: A custom JS-driven cursor with a trailing "follower" and magnetic pull effects on interactive elements.
+- **Minimalist Grid System**: A subtle dashed grid background with a radial mask and animated expansion on page load.
+- **Fluid Typography**: Uses modern CSS `clamp()` functions to scale typography smoothly across screen sizes.
+- **Dark/Light Theme**: Automatically adapts to the user's system preference using `prefers-color-scheme`.
+- **Custom Cursor**: A custom JavaScript-driven cursor with a trailing follower and interactive hover effects on desktop devices.
+- **Micro-interactions**: Subtle hover states, transitions, profile image scaling, animated availability indicator, and staged page entrance animations.
 
 ### Interactive Elements
 
-- **Time-Aware Greeting**: Automatically welcomes visitors with "Good morning," "Good afternoon," or "Good evening" based on their local time.
-- **Bento 404 Page**: A custom error page using a CSS Grid "Bento" layout with a glitch text effect.
+- **Time-Aware Greeting**: Automatically displays "Good morning", "Good afternoon", or "Good evening" based on the visitor's local time.
+- **Bento 404 Page**: A custom error page using a responsive CSS Grid "Bento" layout with a glitch-style 404 animation and return-to-home action.
+- **Responsive Interactions**: Desktop-specific cursor effects are automatically disabled on touch devices.
 
 ### Technical Details
 
-- **Zero Dependencies**: Built entirely with Vanilla JavaScript, HTML5, and CSS3. No frameworks.
-- **Performance Focused**: Targeted for 100/100 Lighthouse Performance score.
-- **Accessibility (A11y)**: Includes `prefers-reduced-motion` queries to disable heavy animations for users who require it.
-- **SEO Optimized**: Includes JSON-LD Schema markup for "Person" and Open Graph/Twitter cards for social sharing.
+- **No Framework Dependencies**: Built with semantic HTML5, CSS3, and vanilla JavaScript. No frontend frameworks or build tools are required.
+- **Performance Focused**: Designed as a lightweight static website with minimal client-side JavaScript and no build process.
+- **Accessibility (A11y)**: Includes `prefers-reduced-motion` support to reduce or disable animations for users who prefer reduced motion.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile screen sizes.
+- **SEO Optimized**: Includes canonical metadata, Open Graph and Twitter Card tags, XML sitemap, `robots.txt`, and Schema.org `Person` structured data.
 
 ## Development
 
-Since this is a static site, no build process is required.
+This is a static website, so no build process or package installation is required.
 
-**Clone the repository**
+### Clone the repository
 
-```
+```bash
 git clone git@github.com:rajit-singh/rajit.xyz.git
+cd rajit.xyz
 ```
+### Run locally
 
-**Open the site**
+Simply open `index.html` in a web browser.
 
-Simply open `index.html` in your web browser.
+Alternatively, serve the directory using any local static file server.
+
+## Project Structure
+
+```text
+├── index.html
+├── 404.html
+├── robots.txt
+├── sitemap.xml
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+└── images/
+```
 
 ## License
 
