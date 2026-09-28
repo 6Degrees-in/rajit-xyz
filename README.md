@@ -35,8 +35,8 @@ This is a static website, so no build process or package installation is require
 ### Clone the repository
 
 ```bash
-git clone git@github.com:rajit-singh/rajit.xyz.git
-cd rajit.xyz
+git clone git@github.com:6Degrees-in/rajit-xyz.git
+cd rajit-xyz
 ```
 ### Run locally
 
