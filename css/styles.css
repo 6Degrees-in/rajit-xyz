@@ -156,19 +156,6 @@ body::before {
 	justify-content: center;
 	position: relative;
 	z-index: 1;
-	animation: contentFadeIn 0.8s ease-out 1s forwards;
-	opacity: 0;
-}
-
-@keyframes contentFadeIn {
-	from {
-		opacity: 0;
-		transform: translateY(20px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
 }
 
 /* Content */
@@ -379,41 +366,25 @@ body::before {
 }
 
 /* Animations */
-@keyframes fadeInUp {
+@keyframes contentSlideIn {
 	from {
-		opacity: 0;
-		transform: translateY(30px);
+		transform: translateY(20px);
 	}
 	to {
-		opacity: 1;
 		transform: translateY(0);
 	}
 }
 
-@keyframes fadeInLeft {
-	from {
-		opacity: 0;
-		transform: translateX(-20px);
-	}
-	to {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
-
 .fade-in {
-	animation: fadeInLeft 0.8s ease-out 1.4s forwards;
-	opacity: 0;
+	animation: contentSlideIn 0.8s ease-out 0s both;
 }
 
 .fade-in-delay {
-	opacity: 0;
-	animation: fadeInUp 0.8s ease-out 1.6s forwards;
+	animation: contentSlideIn 0.8s ease-out 0.15s both;
 }
 
 .fade-in-delay-2 {
-	opacity: 0;
-	animation: fadeInUp 0.8s ease-out 1.8s forwards;
+	animation: contentSlideIn 0.8s ease-out 0.3s both;
 }
 
 /* --- BENTO 404 STYLES --- */
