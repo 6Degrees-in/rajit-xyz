@@ -323,21 +323,7 @@ body::before {
 .link-text {
 	display: block;
 	position: relative;
-	overflow: hidden;
-	height: 1.5em;
 	z-index: 2;
-	transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-text::after {
-	content: attr(data-text);
-	display: block;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	color: var(--hover-text);
-	transition: none;
 }
 
 .arrow {
