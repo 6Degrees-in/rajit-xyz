@@ -14,6 +14,7 @@
 		<meta name="keywords" content="web designer India, brand designer, branding designer, web design, brand identity, portfolio, Rajit Singh, graphic designer India" />
 		<meta name="author" content="Rajit Singh" />
 		<meta name="robots" content="index, follow" />
+		<meta name="theme-color" content="#0f0f0f" />
 		<meta name="language" content="English" />
 		<meta name="revisit-after" content="7 days" />
 
@@ -76,64 +77,373 @@
 			}
 		</script>
 
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Figtree:wght@300;400;500&display=swap" rel="stylesheet" />
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://api.fontshare.com" />
+		<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+		<link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500&display=swap" rel="stylesheet" />
 
 		<!-- Stylesheets -->
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/home.css" />
 	</head>
 	<body>
-		<!-- Custom Cursor Elements -->
-		<div class="cursor"></div>
-		<div class="cursor-follower"></div>
+		<main>
+			<section class="opening" aria-labelledby="page-title">
+				<h1 id="page-title" class="display">Rajit Singh, web <br class="phone-break" />&amp; brand designer</h1>
 
-		<div class="container">
-			<main class="content">
-				<div class="intro fade-in">
-					<div class="intro-text">
-						<p class="greeting" id="greeting">Good evening</p>
-						<h1 class="name">Rajit Singh</h1>
-						<p class="tagline">
-							<span class="tagline-text">Web & Brand Designer based in India</span>
-							<span class="availability-badge">
-								<span class="badge-dot"></span>
-								Available for projects
-							</span>
-						</p>
+				<div class="band">
+					<p class="band-intro">I help businesses tell their story through thoughtful design. Based in India, working globally. Available for projects.</p>
+					<ul class="band-list" aria-label="What I design">
+						<li>Logos and identities</li>
+						<li>Websites</li>
+						<li>Brand guidelines</li>
+						<li>Print and packaging</li>
+						<li>Campaign creatives</li>
+					</ul>
+					<nav class="band-nav" aria-label="On this page">
+						<a href="#work">Work</a>
+						<a href="#clients">Clients</a>
+						<a href="#about">About</a>
+						<a href="#contact">Contact</a>
+					</nav>
+					<a class="button band-action" href="mailto:rajit.vikram.singh@6degrees.in">Email Rajit</a>
+				</div>
+
+				<div class="sheet" id="work">
+					<div class="loupe">
+						<a class="loupe-picture" id="loupe-link" href="images/work/elitty-tote.webp">
+							<img id="loupe-a" src="images/work/elitty-tote.webp" alt="Green Elitty tote bag with the white hand-lettered logo, on a green chair" width="1300" height="770" fetchpriority="high" />
+							<img id="loupe-b" alt="" width="1300" height="770" hidden />
+						</a>
+						<div class="loupe-caption" aria-live="polite">
+							<p class="loupe-title"><span id="loupe-run">Elitty</span>, <span id="loupe-kind">Logo and branding</span></p>
+							<p id="loupe-text">The Elitty logo, featured on Shark Tank India: bold, young and a little rebellious.</p>
+						</div>
 					</div>
-					<img class="profile-picture" src="images/profile.webp" alt="Rajit Singh" width="105" height="105" oncontextmenu="return false;" draggable="false" />
+
+					<div class="sheet-body">
+						<div class="sheet-head">
+							<h2 class="sheet-heading">Work</h2>
+							<p>Authentic, not templated: 22 clients on one contact sheet, from my work at <a href="https://6degrees.in/portfolio/" target="_blank" rel="noopener noreferrer">6 Degrees</a>. Pick any frame to see it large.</p>
+						</div>
+						<ul class="frames" id="frames">
+							<li style="--i: 0">
+								<span class="frame-title">Elitty</span>
+								<a class="frame" href="images/work/elitty-tote.webp" data-run="Elitty" data-kind="Logo and branding" data-caption="The Elitty logo, featured on Shark Tank India: bold, young and a little rebellious." aria-current="true" aria-label="Elitty: Logo and branding">
+									<img src="images/work/thumb/elitty-tote.webp" alt="Green Elitty tote bag with the white hand-lettered logo, on a green chair" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 1">
+								<span class="frame-title"></span>
+								<a class="frame" href="images/work/elitty-campaign.webp" data-run="Elitty" data-kind="Campaign" data-caption="Campaign creatives carrying the Elitty identity across social posts." aria-label="Elitty: Campaign">
+									<img src="images/work/thumb/elitty-campaign.webp" alt="Elitty campaign creatives with sunlit photographs and bold headlines" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 2">
+								<span class="frame-title">Not Just Tikkas</span>
+								<a class="frame" href="images/work/njt-sign.webp" data-run="Not Just Tikkas" data-kind="Branding" data-caption="The brief was to make the branding as “masaledar” as the food." aria-label="Not Just Tikkas: Branding">
+									<img src="images/work/thumb/njt-sign.webp" alt="Round Not Just Tikkas shop sign with a flame and crossed skewers" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 3">
+								<span class="frame-title"></span>
+								<a class="frame" href="images/work/njt-menu.webp" data-run="Not Just Tikkas" data-kind="Menu" data-caption="The same flame and heat carried onto a folded food menu." aria-label="Not Just Tikkas: Menu">
+									<img src="images/work/thumb/njt-menu.webp" alt="Folded black and yellow Not Just Tikkas food menu" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 4">
+								<span class="frame-title">Netrabit Networks</span>
+								<a class="frame" href="images/work/netrabit-cards.webp" data-run="Netrabit Networks" data-kind="Brand identity" data-caption="Logo, colours, business cards, ID badges and brand guidelines." aria-label="Netrabit Networks: Brand identity">
+									<img src="images/work/thumb/netrabit-cards.webp" alt="Dark Netrabit Networks business cards on a blue and white surface" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 5">
+								<span class="frame-title"></span>
+								<a class="frame" href="images/work/netrabit-web.webp" data-run="Netrabit Networks" data-kind="Website" data-caption="A dark-mode WordPress site for an intelligent transport systems company." aria-label="Netrabit Networks: Website">
+									<img src="images/work/thumb/netrabit-web.webp" alt="Dark Netrabit Networks website pages showing traffic systems" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 6">
+								<span class="frame-title">TNT Motorcycles</span>
+								<a class="frame" href="images/work/tnt-motorcycles.webp" data-run="TNT Motorcycles" data-kind="Website" data-caption="A WooCommerce catalogue of custom bikes, and a store for parts shipped worldwide." aria-label="TNT Motorcycles: Website">
+									<img src="images/work/thumb/tnt-motorcycles.webp" alt="TNT Motorcycles website pages showing custom motorcycles" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 7">
+								<span class="frame-title">TNT Moto Designs</span>
+								<a class="frame" href="images/work/tnt-moto-designs.webp" data-run="TNT Moto Designs" data-kind="Website" data-caption="Designed in Figma, built in WordPress and tuned for performance and search." aria-label="TNT Moto Designs: Website">
+									<img src="images/work/thumb/tnt-moto-designs.webp" alt="TNT Moto Designs website pages with motorcycle photographs" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 8">
+								<span class="frame-title">TNT Media Hub</span>
+								<a class="frame" href="images/work/tnt-media-hub.webp" data-run="TNT Media Hub" data-kind="Branding" data-caption="Logo, stationery and a motion graphics package for an automotive production house." aria-label="TNT Media Hub: Branding">
+									<img src="images/work/thumb/tnt-media-hub.webp" alt="Black TNT Media Hub mug with a red inside, on a wooden table" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 9">
+								<span class="frame-title">Manu Maharani</span>
+								<a class="frame" href="images/work/manu-web.webp" data-run="Manu Maharani" data-kind="Website" data-caption="A site showing off one of the biggest resorts in Jim Corbett and all it offers." aria-label="Manu Maharani: Website">
+									<img src="images/work/thumb/manu-web.webp" alt="Manu Maharani resort website pages with rooms and mountain views" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 10">
+								<span class="frame-title"></span>
+								<a class="frame" href="images/work/manu-hoarding.webp" data-run="Manu Maharani" data-kind="Hoarding" data-caption="A roadside hoarding for the resort: “The Regal Experience”." aria-label="Manu Maharani: Hoarding">
+									<img src="images/work/thumb/manu-hoarding.webp" alt="Manu Maharani roadside hoarding showing the resort against the sky" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 11">
+								<span class="frame-title">Petropolitan</span>
+								<a class="frame" href="images/work/petropolitan.webp" data-run="Petropolitan" data-kind="Website" data-caption="A bright site with appointment booking and a payment gateway built in." aria-label="Petropolitan: Website">
+									<img src="images/work/thumb/petropolitan.webp" alt="Colourful Petropolitan pet care website pages with illustrated dogs" width="480" height="320" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 12">
+								<span class="frame-title">Boona</span>
+								<a class="frame" href="images/work/boona.webp" data-run="Boona" data-kind="Logo" data-caption="For a mountain collective of hand-knitters: cute, comforting and approachable." aria-label="Boona: Logo">
+									<img src="images/work/thumb/boona.webp" alt="Boona logo with a ball of yarn, stamped on a leather tag sewn to white knitwear" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 13">
+								<span class="frame-title">HerbalBrew</span>
+								<a class="frame" href="images/work/herbalbrew.webp" data-run="HerbalBrew" data-kind="Branding" data-caption="An old-school logomark with a modern palette, made to stand out on a shelf." aria-label="HerbalBrew: Branding">
+									<img src="images/work/thumb/herbalbrew.webp" alt="Two orange HerbalBrew lemongrass tea pouches" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 14">
+								<span class="frame-title">Intoglo</span>
+								<a class="frame" href="images/work/intoglo.webp" data-run="Intoglo" data-kind="Logo" data-caption="A modern, minimal mark for a company rebuilding cross-border logistics with technology." aria-label="Intoglo: Logo">
+									<img src="images/work/thumb/intoglo.webp" alt="Intoglo sign on a marble wall in slatted light" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 15">
+								<span class="frame-title">PatPug</span>
+								<a class="frame" href="images/work/patpug.webp" data-run="PatPug" data-kind="Logo" data-caption="For ultra-soft towels: a mark that feels breezy, natural and comforting." aria-label="PatPug: Logo">
+									<img src="images/work/thumb/patpug.webp" alt="PatPug swing tag with a round red logo, on soft paper" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 16">
+								<span class="frame-title">Marche FX</span>
+								<a class="frame" href="images/work/marche-fx.webp" data-run="Marche FX" data-kind="Brand identity" data-caption="A complete identity for a cryptocurrency trading platform." aria-label="Marche FX: Brand identity">
+									<img src="images/work/thumb/marche-fx.webp" alt="Marche FX chevron logo on a sign on a concrete wall" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 17">
+								<span class="frame-title">ScalpBox</span>
+								<a class="frame" href="images/work/scalpbox.webp" data-run="ScalpBox" data-kind="Brand guidelines" data-caption="A dark palette and a curved typeface for a company built on new technology." aria-label="ScalpBox: Brand guidelines">
+									<img src="images/work/thumb/scalpbox.webp" alt="ScalpBox brand guidelines spread with the logo and colour palette" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 18">
+								<span class="frame-title">Hero Housing Finance</span>
+								<a class="frame" href="images/work/hhfl-branch.webp" data-run="Hero Housing Finance" data-kind="Branch branding" data-caption="Posters and wall graphics for the company’s branch offices." aria-label="Hero Housing Finance: Branch branding">
+									<img src="images/work/thumb/hhfl-branch.webp" alt="Framed Hero Housing Finance posters on an office wall" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 19">
+								<span class="frame-title"></span>
+								<a class="frame" href="images/work/hhfl-campaign.webp" data-run="Hero Housing Finance" data-kind="Campaign" data-caption="Creatives announcing the company’s new home online." aria-label="Hero Housing Finance: Campaign">
+									<img src="images/work/thumb/hhfl-campaign.webp" alt="Hero Housing Finance creatives announcing a new website" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 20">
+								<span class="frame-title">Atlantic Water World</span>
+								<a class="frame" href="images/work/atlantic-brochure.webp" data-run="Atlantic Water World" data-kind="Brochure" data-caption="A brochure of rides and attractions, opened out in red and yellow." aria-label="Atlantic Water World: Brochure">
+									<img src="images/work/thumb/atlantic-brochure.webp" alt="Open Atlantic Water World brochure with a red and yellow water slide" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 21">
+								<span class="frame-title"></span>
+								<a class="frame" href="images/work/atlantic-ads.webp" data-run="Atlantic Water World" data-kind="Newspaper ads" data-caption="Three newspaper ads, each selling a day out at the park." aria-label="Atlantic Water World: Newspaper ads">
+									<img src="images/work/thumb/atlantic-ads.webp" alt="Three colourful Atlantic Water World newspaper advertisements" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 22">
+								<span class="frame-title">PriceLabs</span>
+								<a class="frame" href="images/work/pricelabs.webp" data-run="PriceLabs" data-kind="Leaflet" data-caption="A folded leaflet explaining dynamic pricing." aria-label="PriceLabs: Leaflet">
+									<img src="images/work/thumb/pricelabs.webp" alt="Folded red and white PriceLabs leaflet" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 23">
+								<span class="frame-title">Xante</span>
+								<a class="frame" href="images/work/xante-label.webp" data-run="Xante" data-kind="Label" data-caption="A supplement label laid out flat beside the finished bottle." aria-label="Xante: Label">
+									<img src="images/work/thumb/xante-label.webp" alt="Xante marine collagen peptides label beside a white bottle" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 24">
+								<span class="frame-title">Reconcile With Nature</span>
+								<a class="frame" href="images/work/rwn.webp" data-run="Reconcile With Nature" data-kind="Website" data-caption="A showcase for a doctor’s healthcare practice in Manchester, UK." aria-label="Reconcile With Nature: Website">
+									<img src="images/work/thumb/rwn.webp" alt="Reconcile With Nature website pages with a lotus logo" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 25">
+								<span class="frame-title">Bains Engineering</span>
+								<a class="frame" href="images/work/bains.webp" data-run="Bains Engineering" data-kind="Website" data-caption="The full product line-up of an engineering company in Ghaziabad." aria-label="Bains Engineering: Website">
+									<img src="images/work/thumb/bains.webp" alt="Bains Engineering website pages with industrial photographs" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 26">
+								<span class="frame-title">FRP Anchor Rebars</span>
+								<a class="frame" href="images/work/frp.webp" data-run="FRP Anchor Rebars" data-kind="Website" data-caption="An online brochure for a maker of sustainable GFRP rebars." aria-label="FRP Anchor Rebars: Website">
+									<img src="images/work/thumb/frp.webp" alt="Dark FRP Anchor Rebars website pages with angular panels" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+							<li style="--i: 27">
+								<span class="frame-title">RD Outdoor Media</span>
+								<a class="frame" href="images/work/rd-outdoor.webp" data-run="RD Outdoor Media" data-kind="Website" data-caption="The online brochure of a large outdoor advertising agency in eastern Uttar Pradesh." aria-label="RD Outdoor Media: Website">
+									<img src="images/work/thumb/rd-outdoor.webp" alt="RD Outdoor Media website pages showing roadside billboards" width="480" height="320" loading="lazy" decoding="async" />
+								</a>
+							</li>
+						</ul>
+						<a class="sheet-more" href="https://6degrees.in/portfolio/" target="_blank" rel="noopener noreferrer">See the full portfolio</a>
+					</div>
 				</div>
+			</section>
 
-				<div class="about fade-in-delay">
-					<p>
-						I help businesses tell their story through thoughtful design. Specializing in web experiences and brand identities that feel authentic, not templated. Based in India, working globally.
-					</p>
+			<div class="paper">
+				<section class="voices" id="clients" aria-labelledby="voices-title">
+					<h2 id="voices-title" class="small-heading rise">What clients say</h2>
+					<figure class="voice voice-wide rise">
+						<div class="voice-band">
+							<img src="images/work/client-vailina.webp" alt="Vailina Tulsani" width="110" height="110" loading="lazy" />
+							<img src="images/work/elitty-tote.webp" alt="" width="1300" height="770" loading="lazy" />
+						</div>
+						<figcaption><strong>Vailina Tulsani</strong> Founder, Elitty</figcaption>
+						<blockquote>“We’re thrilled with the logo and branding 6 Degrees created for Elitty. Rajit delivered exactly what we wanted: a fresh, bold identity that perfectly embodies our brand’s spirit.”</blockquote>
+					</figure>
+					<figure class="voice rise">
+						<div class="voice-band">
+							<img src="images/work/client-ashray.webp" alt="Ashray Arora" width="110" height="110" loading="lazy" />
+							<img src="images/work/petropolitan.webp" alt="" width="1300" height="870" loading="lazy" />
+						</div>
+						<figcaption><strong>Ashray Arora</strong> CEO, Petropolitan</figcaption>
+						<blockquote>“6 Degrees developed the website for Petropolitan. Rajit understood our vision, and worked with us tirelessly to turn it into reality. Our experience was nothing but pleasant.”</blockquote>
+					</figure>
+				</section>
+
+				<section class="ledger" aria-labelledby="ledger-title">
+					<h2 id="ledger-title" class="stepped rise"><span>Who the work</span> <span>was for</span></h2>
+					<div class="ledger-table rise">
+						<table>
+							<thead>
+								<tr>
+									<th scope="col">Client</th>
+									<th scope="col">What they do</th>
+									<th scope="col">The work</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><th scope="row">Elitty</th><td>Beauty, seen on Shark Tank India</td><td>Logo, branding, campaign</td></tr>
+								<tr><th scope="row">Petropolitan</th><td>Pet care, booked online</td><td>Website</td></tr>
+								<tr><th scope="row">TNT Motorcycles</th><td>Custom bikes and parts, shipped worldwide</td><td>Website</td></tr>
+								<tr><th scope="row">TNT Moto Designs</th><td>Motorcycle design</td><td>Website</td></tr>
+								<tr><th scope="row">TNT Media Hub</th><td>Automotive production house</td><td>Logo, stationery, motion</td></tr>
+								<tr><th scope="row">Netrabit Networks</th><td>Intelligent transport systems</td><td>Identity, guidelines, website</td></tr>
+								<tr><th scope="row">Not Just Tikkas</th><td>Indian food</td><td>Branding, menu</td></tr>
+								<tr><th scope="row">Manu Maharani</th><td>Resort in Jim Corbett</td><td>Website, hoarding</td></tr>
+								<tr><th scope="row">Hero Housing Finance</th><td>Home loans</td><td>Branch branding, campaign</td></tr>
+								<tr><th scope="row">Intoglo</th><td>Cross-border logistics</td><td>Logo</td></tr>
+								<tr><th scope="row">Boona</th><td>Mountain hand-knitting collective</td><td>Logo</td></tr>
+								<tr><th scope="row">PatPug</th><td>Ultra-soft towels</td><td>Logo</td></tr>
+								<tr><th scope="row">Marche FX</th><td>Cryptocurrency trading</td><td>Brand identity</td></tr>
+								<tr><th scope="row">Reconcile With Nature</th><td>Healthcare practice in Manchester, UK</td><td>Website</td></tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+
+				<section class="about" id="about" aria-labelledby="about-title">
+					<div class="about-facts rise">
+						<h2 id="about-title" class="small-heading">About</h2>
+						<ul>
+							<li>Based in India</li>
+							<li>Web and brand design at <a href="https://6degrees.in/" target="_blank" rel="noopener noreferrer">6 Degrees</a></li>
+							<li><a href="https://x.com/rajitsingh" target="_blank" rel="noopener noreferrer">Follow on 𝕏</a></li>
+						</ul>
+					</div>
+					<div class="about-text rise">
+						<p>
+							<img class="profile-picture" src="images/profile.webp" alt="Rajit Singh" width="800" height="800" loading="lazy" oncontextmenu="return false;" draggable="false" />
+							<strong>I’m Rajit Singh.</strong> I help businesses tell their story through thoughtful design, specializing in web experiences and brand identities that feel authentic, not templated.
+						</p>
+						<p class="about-second">From India, I’ve worked for a resort in Jim Corbett, a doctor in Manchester and a bike builder who ships worldwide.</p>
+					</div>
+				</section>
+			</div>
+
+			<section class="contact" id="contact" aria-labelledby="contact-title">
+				<div class="strip" aria-hidden="true">
+					<div class="strip-track">
+						<div class="strip-set">
+							<img src="images/work/thumb/elitty-tote.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/boona.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/njt-sign.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/herbalbrew.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/tnt-media-hub.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/intoglo.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/petropolitan.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/patpug.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/marche-fx.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/manu-hoarding.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/netrabit-cards.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/atlantic-brochure.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+						</div>
+						<div class="strip-set">
+							<img src="images/work/thumb/elitty-tote.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/boona.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/njt-sign.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/herbalbrew.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/tnt-media-hub.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/intoglo.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/petropolitan.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/patpug.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/marche-fx.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/manu-hoarding.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/netrabit-cards.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+							<img src="images/work/thumb/atlantic-brochure.webp" alt="" width="225" height="150" loading="lazy" decoding="async" />
+						</div>
+					</div>
 				</div>
+				<h2 id="contact-title" class="contact-heading rise"><span id="greeting"></span>What’s the project?</h2>
+				<form class="contact-form rise" id="contact-form" action="mailto:rajit.vikram.singh@6degrees.in" method="get" enctype="text/plain">
+					<div class="cell">
+						<label for="contact-subject">What do you need?</label>
+						<input id="contact-subject" name="subject" type="text" placeholder="Logo, website, both" autocomplete="off" />
+					</div>
+					<div class="cell">
+						<label for="contact-body">About your business</label>
+						<input id="contact-body" name="body" type="text" placeholder="What you do" autocomplete="off" />
+					</div>
+					<button class="cell cell-submit" type="submit">Email Rajit</button>
+				</form>
+				<p class="contact-print">Writes to <a href="mailto:rajit.vikram.singh@6degrees.in">rajit.vikram.singh@6degrees.in</a> from your own email app.</p>
+			</section>
+		</main>
 
-				<nav class="links fade-in-delay-2">
-					<a href="https://6degrees.in/portfolio/" target="_blank" rel="noopener noreferrer" class="link">
-						<span class="link-text">Portfolio</span>
-						<span class="arrow">→</span>
-					</a>
-					<a href="https://x.com/rajitsingh" target="_blank" rel="noopener noreferrer" class="link">
-						<span class="link-text">Follow on 𝕏</span>
-						<span class="arrow">→</span>
-					</a>
-					<a href="mailto:rajit.vikram.singh@6degrees.in" class="link">
-						<span class="link-text">Email me</span>
-						<span class="arrow">→</span>
-					</a>
-				</nav>
-			</main>
+		<footer class="tiles">
+			<div class="tile tile-statement">
+				<p>Brands and websites that feel authentic, not templated.</p>
+				<p class="legal">&copy; <span id="current-year">2026</span> Rajit Singh. All rights reserved. Client work shown was made at 6 Degrees and belongs to its owners.</p>
+			</div>
+			<nav class="tile tile-nav" aria-label="Elsewhere">
+				<a href="https://6degrees.in/portfolio/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+				<a href="https://x.com/rajitsingh" target="_blank" rel="noopener noreferrer">Follow on 𝕏</a>
+				<a href="#work">Back to the work</a>
+			</nav>
+			<div class="tile tile-time">
+				<p>India</p>
+				<p class="time" id="india-time">UTC+5:30</p>
+			</div>
+			<div class="tile tile-email">
+				<a href="mailto:rajit.vikram.singh@6degrees.in">rajit.vikram.singh<wbr />@6degrees.in</a>
+			</div>
+			<p class="tile tile-wordmark" aria-hidden="true">Rajit Singh</p>
+			<a class="tile tile-action" href="mailto:rajit.vikram.singh@6degrees.in">
+				<span>Email Rajit</span>
+				<svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true"><path d="M12 52 52 12M18 12h34v34" fill="none" stroke="currentColor" stroke-width="4" /></svg>
+			</a>
+		</footer>
 
-			<footer class="footer">
-				<p>&copy; <span id="current-year"></span> Rajit Singh. All rights reserved.</p>
-			</footer>
-		</div>
-
-		<!-- Scripts -->
-		<script src="js/scripts.js"></script>
+		<script src="js/home.js"></script>
 	</body>
 </html>
